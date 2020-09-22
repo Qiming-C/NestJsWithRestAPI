@@ -62,7 +62,7 @@ export class ProductService {
         //we should aware that if we delete a id which is not valid, we should return 404 rather than 200
         if(result.n===0)
         {
-                throw new NotFoundException("Did not found the product");
+                throw new NotFoundException("Did not find the product");
         }
         
     }

@@ -4,7 +4,9 @@ import { ProductService } from "./products.service";
 
 @Controller('products')
 export class ProductsController {
+
     constructor(private readonly productService: ProductService) { }
+    
     @Post()
     async addProduct(
         @Body('title') prodTitle: string,
