@@ -27,6 +27,7 @@
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Couple Endpoint could be used(Add Employee, Get allEmployees, Get oneEmployee, Update employee, and Delete employee). Making sure change the driver in `app.module.ts` which you can connect to you own database
 
 ## Installation
 
